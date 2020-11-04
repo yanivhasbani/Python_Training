@@ -1,0 +1,7 @@
+{
+  "port": 8000,
+  "command_types": [
+    "shell",
+    "get_file"
+  ]
+}

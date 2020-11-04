@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+ <head>
+  <link href="home.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <form action="/new_shell_command" method="get">
+   <ul>
+    <li name="select_type">
+     <label for="type">
+      Command:
+     </label>
+     <select id="type" name="type">
+      <option type="shell">
+       Shell
+      </option>
+      <option type="get_file">
+       Get_file
+      </option>
+     </select>
+    </li>
+    <li name="script_text_area">
+     <label for="script">
+      Script:
+     </label>
+     <textarea id="script" name="shell_script" placeholder="Enter Script Here"></textarea>
+    </li>
+    <li class="button">
+     <button type="submit">
+      Submit
+     </button>
+    </li>
+   </ul>
+  </form>
+ </body>
+</html>
